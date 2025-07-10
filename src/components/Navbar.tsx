@@ -34,7 +34,7 @@ export default function Navbar() {
         <button
           type="button"
           aria-label="Toggle theme"
-          className="py-4  w-[20px] rounded hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors"
+          className="  w-[30px] rounded hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors"
           onClick={ () => setTheme(theme === 'dark' ? 'light' : 'dark') }
         >
           {theme === 'dark' ? <Sun size={18} /> : <Moon size={18} />}
