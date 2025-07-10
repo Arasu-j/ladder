@@ -13,7 +13,8 @@ export default function Navbar() {
     <header className="flex w-[1440px] h-[64px] justify-between px-[40px] py-[16px] rotate-0 opacity-100 border-b">
       <div className="flex flex-row w-[105.01px] h-[28px] gap-3 rotate-0 opacity-100 items-center">
        <img src="/kosallogo 1.png" alt="logo" className="w-[28px] h-[28px] rounded-[8px]" />
-       <img src="/Logo Text.png" alt="logo" className="w-[65.01px] h-[14.15px] rotate-0 opacity-100" />
+       <h1 className="w-[65.01px] h-[14.15px] rotate-0 opacity-100  dark:text-white font-bold">KOSAL</h1>
+      
       </div>
       {/* Desktop Nav */}
       <nav className="hidden lg:flex items-center w-[677px] h-[24px] gap-8 rotate-0 opacity-100 font-medium text-[14px] leading-[24px] tracking-normal font-manrope text-[#4F4B5C]  dark:text-[#C2C2C2]">
