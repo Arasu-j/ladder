@@ -12,11 +12,14 @@ export default function Products() {
           <span className="text-[#0A6CDB] font-inter font-medium">Our Products</span>
         </div>
       </div>
-      <div className="max-w-4xl mx-auto mb-12">
-        {/* Remove old badge here */}
-        <h2 className="text-4xl font-bold mt-4">
-          <span className="text-blue-600 dark:text-blue-400">Solutions</span> for Every Business Need.
+      <div className="flex items-center justify-center bg-white dark:bg-black pb-[40px]">
+      <div className="flex flex-col items-center w-[589px] h-[144px] rotate-0 opacity-100">
+       
+        <h2 className="text-[64px] leading-[72px] font-semibold tracking-[-0.01em] text-center font-inte">
+          <span className=" text-[#0A6CDB] font-bold">Solutions </span>
+          <span className=" text-black dark:text-white font-bold">for Every Business Need.</span>
         </h2>
+      </div>
       </div>
 
       {/* Product Card Section */}
