@@ -31,9 +31,9 @@ export default function WhyChoose() {
 
             {/* Box 2: Fast Onboarding - 2 cols x 1 row */}
             <div className="col-span-2 row-span-1 bg-[#f9f9f9] dark:bg-[#1e1e1e] rounded-[32px] flex flex-row items-center justify-center p-0 ">
-              <div className="flex flex-col items-center justify-center w-full h-full p-10">
-              <div className="absolute top right-3">
-                <img src="/rocket-dynamic-color.png" alt="Fast Onboarding" className="w-[370px] h-[329px] object-contain mr-6" />
+              <div className="flex flex-col items-center justify-center w-full h-full ">
+              <div className="absolute  right-3">
+                <img src="/rocket-dynamic-color.png" alt="Fast Onboarding" className="w-[370px] h-[329px] object-contain " />
                 </div>
                 <div className="flex flex-col content-end justify-baseline">
                   <h3 className="font-semibold text-[26px] leading-[40px] tracking-[-0.01em] font-inter text-black dark:text-white mb-2">Fast Onboarding</h3>

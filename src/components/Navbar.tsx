@@ -10,11 +10,13 @@ export default function Navbar() {
   const { theme, setTheme } = useTheme()
 
   return (
-    <header className="flex items-center justify-between px-6 md:px-8 py-4 shadow-sm">
-      <div className="text-primary font-bold text-xl font-inter">KOSAL.IO</div>
-
+    <header className="flex w-[1440px] h-[64px] justify-between px-[40px] py-[16px] rotate-0 opacity-100 border-b">
+      <div className="flex flex-row w-[105.01px] h-[28px] gap-3 rotate-0 opacity-100 items-center">
+       <img src="/kosallogo 1.png" alt="logo" className="w-[28px] h-[28px] rounded-[8px]" />
+       <img src="/Logo Text.png" alt="logo" className="w-[65.01px] h-[14.15px] rotate-0 opacity-100" />
+      </div>
       {/* Desktop Nav */}
-      <nav className="hidden lg:flex items-center space-x-8 text-sm font-manrope">
+      <nav className="hidden lg:flex items-center w-[677px] h-[24px] gap-8 rotate-0 opacity-100 font-medium text-[14px] leading-[24px] tracking-normal font-manrope text-[#4F4B5C]  dark:text-[#C2C2C2]">
         <div className="flex items-center gap-1 cursor-pointer">
           Services <ChevronDown size={14} />
         </div>
@@ -28,16 +30,16 @@ export default function Navbar() {
       </nav>
 
       {/* Desktop Right */}
-      <div className="hidden lg:flex items-center gap-4">
+      <div className="hidden lg:flex items-center w-[121px] h-[32px] gap-[16px] rotate-0 opacity-100">
         <button
           type="button"
           aria-label="Toggle theme"
-          className="p-2 rounded hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors"
+          className="py-4  w-[20px] rounded hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors"
           onClick={ () => setTheme(theme === 'dark' ? 'light' : 'dark') }
         >
           {theme === 'dark' ? <Sun size={18} /> : <Moon size={18} />}
         </button>
-        <Button className="bg-primary text-white font-inter hover:bg-primary/90">
+        <Button className="bg-primary w-[85px] h-[32px] px-[10px] py-[8px] gap-[6px] rotate-0 opacity-100 rounded-[24px] font-semibold text-[12px] leading-[16px] tracking-normal align-middle font-manrope text-white font-inter hover:bg-primary/90">
           Contact Us
         </Button>
       </div>
